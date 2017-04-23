@@ -16,13 +16,14 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<dubbo.version>2.5.3</dubbo.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>dubbo-practice-provider-api</groupId>
 			<artifactId>dubbo-practice-provider-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.parent.version}</version>
 		</dependency>
 
 		<dependency>
@@ -56,7 +57,7 @@
 			<version>${zkclient.version}</version>
 		</dependency>
 
-
 	</dependencies>
+
 
 </project>
