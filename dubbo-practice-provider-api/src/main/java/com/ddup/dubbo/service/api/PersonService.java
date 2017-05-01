@@ -5,6 +5,6 @@ import com.ddup.dubbo.service.dto.resp.PersonDTO;
 
 public interface PersonService {
 	
-	public PersonDTO queryPerson(PersonDescriptionDTO requestDto);
+	PersonDTO queryPerson(PersonDescriptionDTO requestDto);
 	
 }
